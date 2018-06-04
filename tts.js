@@ -1,4 +1,4 @@
-const speak = (text="") => {
+const speak = (text="Something all the lines of being a badass") => {
     var msg = new SpeechSynthesisUtterance(text);
     msg.voice = window.speechSynthesis.getVoices()[3];
     msg.voiceURI = 'native';
